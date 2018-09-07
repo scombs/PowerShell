@@ -38,9 +38,9 @@ Hello everyone,
 <p>Thank you for your support! <br>
 <br>
 </P>"
-From = "noreply@corp.com"
-TO = "IT@corp.com"
-Smtpserver= "smtp.corp.com"
+From = "noreply@MyDomain.com"
+TO = "IT@MyDomain.com"
+Smtpserver= "smtp.MyDomain.com"
 Attachments = "$loc\Production-Saturday.csv","$loc\Production-Sunday.csv"
 }
 Send-MailMessage @messageparameters -BodyAsHtml
